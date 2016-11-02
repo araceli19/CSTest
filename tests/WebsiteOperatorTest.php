@@ -6,7 +6,7 @@ class WebsiteOperatorTest extends TestCase
 {
     public function test_insertWebsiteOp(){
         $operator = new WebsiteOperatorConn();
-        $data = $opeator::insertDataWebsiteOp("Karen Lopez","831888888", "karen@gmail.com", "123");
+        $data = $operator::insertDataWebsiteOp("Karen Lopez","831888888", "karen@gmail.com", "123");
         $this->assertEquals($data,true);
     }
 
