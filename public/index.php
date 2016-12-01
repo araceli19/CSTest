@@ -1,4 +1,5 @@
 <?php
+ini_set('memory_limit', '256M');
   session_start(); //session start
   include_once('html/gmailDB.php');
 ?>
