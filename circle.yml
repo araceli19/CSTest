@@ -6,6 +6,7 @@ machine:
     - mysql
 test:
   override:
+    - phpunit -d memory_limit=512M
     - vendor/bin/phpunit ./public/tests --coverage-clover coverage.xml --whitelist ./public --log-junit $CIRCLE_TEST_REPORTS/tests.xml
   post:
     - bash <(curl -s https://codecov.io/bash)
