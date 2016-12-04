@@ -3,7 +3,7 @@
     <head>
         <title>Community Service Finder </title>
 
-      <link rel="stylesheet" href="home.css">
+      <link rel="stylesheet" href="css/home.css">
     </head>
     <body background = "img/park.jpg">
         <header>

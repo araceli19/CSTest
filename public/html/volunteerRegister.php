@@ -21,7 +21,7 @@ $getVolunteer = getVolunteerInfo();
 <html>
         <head>
                   <title> Community Service Finder</title>
-                  <link rel="stylesheet" type="text/css" href="registrationForm.css">
+                  <link rel="stylesheet" type="text/css" href="css/registrationForm.css">
         </head>
         <body>
 

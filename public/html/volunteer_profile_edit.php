@@ -25,7 +25,7 @@ $getVolunteer = getVolunteerInfo();
 ?>
 
 
-        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
                 <div class="navbar-header">

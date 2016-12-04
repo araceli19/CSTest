@@ -57,7 +57,7 @@ function getSearch(){
  ?>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
 <title> Community Service Finder </title>
 </head>
 <body>

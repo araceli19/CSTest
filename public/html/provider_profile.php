@@ -4,7 +4,7 @@ include('include/database.php');
 include('setVolunteerRegistration.php');
 ?>
 
-<link rel="stylesheet" type="text/css" href="profile.css">
+<link rel="stylesheet" type="text/css" href="css/profile.css">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
         <div class="navbar-header">

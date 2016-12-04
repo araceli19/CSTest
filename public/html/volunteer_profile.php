@@ -24,7 +24,7 @@ $getVolunteer = getVolunteerInfo();
        $bio = "Actively looking for Community Service Opportunities!"
 ?>
 
-        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
 
 
 <nav class="navbar navbar-inverse">
