@@ -4,7 +4,7 @@ use Laracasts\Integrated\Extensions\Goutte as IntegrationTest;
 
 class MyProfileTest extends IntegrationTest{
 
-//checks profiles displays correct buttons 
+//checks profiles displays correct buttons
   protected $baseUrl = 'http://sample-env.8fm6rg3smv.us-west-2.elasticbeanstalk.com/';
     /** @test */
     function check_search_page_exists(){
