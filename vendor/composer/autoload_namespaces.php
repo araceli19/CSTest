@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Google_Service_' => array($vendorDir . '/google/apiclient-services/src'),
-    'Google_' => array($vendorDir . '/google/apiclient/src'),
+    'WebDriver' => array($vendorDir . '/instaclick/php-webdriver/lib'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
 );
