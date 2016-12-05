@@ -11,7 +11,8 @@ class aboutMeTest extends IntegrationTest{
       //also checks that users see the email to contact us
       $this->visit('/')->click('Contact Us')
       ->seePageIs('/http://sample-env.8fm6rg3smv.us-west-2.elasticbeanstalk.com/public/html/contactUs.html')
-      ->see('communityservice@community.com');
+      ->see('communityservice@community.com')
+      ->assertResponseOk();
     }
 }
 
