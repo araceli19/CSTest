@@ -33,7 +33,7 @@ class AvailableServices{
     public static function insertDataServices($Organization_ID,$Category_ID,$Hours_Available,$Volunteers_Needed,$Description,$Phone_Num,$Name_Of_Service )
     {
         $db = Database::setConnection();
-            $sql = "INSERT INTO Available_Services(Organization_ID, Category_ID, Hours_Available, Volunteers_Needed, Description, Phone_Num, Name_Of_Service)
+            $sql = "INSERT INTO Available_Services(Organization_ID, Category_ID, Hours_Available, Volunteers_Needed, Description,Phone_Num, Name_Of_Service)
             VALUES('$Organization_ID','$Category_ID','$Hours_Available','$Volunteers_Needed','$Description','$Phone_Num','$Name_Of_Service');";
 
 
@@ -48,7 +48,7 @@ class AvailableServices{
 
     }
     //test removal of organizaion
-    public static function removeAvailableServices($Organization_ID,$Category_ID,$Hours_Available,$Volunteers_Needed,$Description,$Phone_Num,$Name_Of_Service ){
+    public static function removeAvailableServices($Organization_ID,$Category_ID,$Hours_Available,$Volunteers_Needed,$Description,$Phone_Num,$Name_Of_Service){
   $db = Database::setConnection();
 
                 $sql = "DELETE FROM Available_Services WHERE Name_Of_Service = '$Name_Of_Service'";
