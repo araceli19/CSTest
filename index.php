@@ -39,7 +39,7 @@
       <?php
                 if (isset($authUrl)) {
                    	  echo '<div align="right">';
-                   	  echo '<a class="login" href="' . $authUrl . '"><img src="public/html/images/button.png" /></a>';
+                   	  echo '<a class="login" id="login" href="' . $authUrl . '"><img src="public/html/images/button.png" /></a>';
                echo '</div>';
 
              }
